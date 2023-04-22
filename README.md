@@ -1,5 +1,36 @@
 # docs
-documentations
+
+
+## TODO:
+
+
+
+Producenci kamer często oferują własną apkę, wówczas jak kupujesz, to musisz też kupić apkę producenta, żeby mieć monitoring z kamer na smartfona. 
+
+Stworzyłem prostą apkę na python do pobeirania tych danych z kamer poprze EMAIL i FTP, wówczas można oglądać w przeglądarce/kiosku te dane, bez potrzeby instalowania podejrzanych apek, gdzie większość kamer ma defaultowo ustawione DNS na Chiny.
+ 
+Ciekaw jestem czy będzie zainteresowanie, ale sam ze swej strony nie dałem rady czegoś sensownego znaleźć dlatego pierwsza wersja będzie dostępna za free a kolejna z opcjami detekcji poprzez analizę archiwalnych nagrań poprzez AI.
+
+W przyszłości będzie dostępne API do komunikacji z istniejącymi serwerami, bo te nowsze z reguły mają  połączenie poprzez LAN, więc jeśli już ktoś ma kamery to będzie szansa, wzbogacenia je o funkcję inteligentnego powiadamiania o konkretnych zdarzeniach, wykryciu tablic rejestracyjnych czy identyfikacji osób.
+
+
+## Specyfikacja
+
++ Aplikacja działa na minipc/rpi czy na wirtualnej maszynie w Docker/środowisku linux
+Do przeglądania foto wystarczy otworzyć w przeglądarce
+
+
+## Wersja próbna będzie tylko przechowywała archiwum do 5 dni wstecz, max 1GB dostępne per konto
+Wersja SaaS będzie dostępna na serwerze z ograniczeniem pojemności nagrań
+
+
+## Wersja płatna 
+Wersja SaaS będzie dostępna na serwerze bez ograniczenia pojemności
+
+
+
+
+## meta
 
 monitoring cameras
 detection Tracking
