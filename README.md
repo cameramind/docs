@@ -4,7 +4,8 @@ documentations
 
 ## example names:
 
-+ camonits
++ cam treck
++ ca monits
 + camera monit
 + camera monits
 + camera mind
